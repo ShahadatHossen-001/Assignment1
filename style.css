@@ -124,14 +124,49 @@ nav{
 .number{
     margin-top: -50px;
 }
-footer{
+.touch{
     display: flex;
     margin-left: 150px;
-    margin-right: 150px;
-
+    margin-right: 50px;
 }
-.footer-content{
-    font-size: ;
-
-
+.touch-content{
+    font-size: 97px;
+    font-weight: bold;
+    align-items: center;
+    width: 600px;
+    height: 250px;
+}
+.touch-form{
+    font-size: 18px;
+    width: 400px;
+    height: 500px;
+    padding: 100px;
+}
+.touch input[type="text"],.touch input[type="email"]{
+    padding: 12px;
+    font-size: 20px;
+    width: 500px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    background-color:	#F8F8FF;
+}
+.touch textarea{
+    padding: 12px;
+    font-size: 20px;
+    width: 500px;
+    height: 135px;
+    border-radius: 10px;
+    border: none;
+    background-color:	#F8F8FF;
+}
+.btn-git{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    padding: 11.5px 36px;
+    width: 500px;
+    height: 60px;
+    font-size: 16px;
+    border: none;
 }
