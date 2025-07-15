@@ -23,7 +23,7 @@
 }
 header{
     background-image: url(Assets/Hero-bg.png);
-    width: 1520px;
+    width: 1510px;
     height: 684.5px;
 }
 nav{
@@ -126,15 +126,19 @@ nav{
 }
 .touch{
     display: flex;
-    margin-left: 150px;
-    margin-right: 50px;
+    /* margin-left: 100px;
+    margin-right: 60px; */
+    background-color:whitesmoke;
+    padding: 0px 50px 0px 150px;
 }
 .touch-content{
     font-size: 97px;
     font-weight: bold;
     align-items: center;
+    justify-content: center;
     width: 600px;
     height: 250px;
+    padding: 100px 0px 0px 0px;
 }
 .touch-form{
     font-size: 18px;
@@ -149,7 +153,7 @@ nav{
     height: 70px;
     border-radius: 10px;
     border: none;
-    background-color:	#F8F8FF;
+    background-color:#FFFFFF;
 }
 .touch textarea{
     padding: 12px;
@@ -158,15 +162,50 @@ nav{
     height: 135px;
     border-radius: 10px;
     border: none;
-    background-color:	#F8F8FF;
+    background-color:#FFFFFF;
 }
 .btn-git{
     color: #FFFFFF;
     background-color: #4E47FF;
     border-radius: 10px;
     padding: 11.5px 36px;
-    width: 500px;
+    width: 525px;
     height: 60px;
     font-size: 16px;
     border: none;
+}
+footer{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 180px;
+    margin: 10px 525px;
+}
+.footer-heading{
+    font-size: 40px;
+    font-weight: 900;
+    color: #4E47FF;
+    margin-bottom: -40px;
+}
+.footer-des{
+    color: #8987A1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li a{
+    color: #8987A1;
+    text-decoration: none;
 }
